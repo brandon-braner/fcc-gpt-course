@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fcc-gpt-course"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Braner <brandon.braner@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fcc_gpt_course"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.1"
+matplotlib = "^3.8.0"
+pylzma = "^0.5.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
